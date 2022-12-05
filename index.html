@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<link rel="shortcut icon" href="img/icons/main-logo.svg" type="image/x-icon">
+	<title>Авто обмен</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container container">
+		<div class="header__content">
+			<a href="index.html" class="header__logo logo">
+				<svg class="logo__icon">
+					<use xlink:href="img/icons/main-logo.svg#logo"></use>
+				</svg>
+				<div class="logo__text"><span>Auto</span> Shop</div>
+			</a>
+			<nav class="header__menu">
+				<ul class="menu-list">
+					<li class="menu-list__item"><a href="#" class="menu-list__link">Купить</a></li>
+					<li class="menu-list__item"><a href="#" class="menu-list__link">Продать</a></li>
+					<li class="menu-list__item"><a href="#" class="menu-list__link">Автокредит</a></li>
+					<li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>
+				</ul>
+				<div class="menu-list-content-desktop">
+					<ul class="menu-list-desktop">
+						<li data-da=".menu-list, 767.98, 5" class="menu-list-desktop__item"><a href="#" class="menu-list-desktop__link">Частые вопросы</a></li>
+						<li data-da=".menu-list, 767.98, 6" class="menu-list-desktop__item"><a href="#" class="menu-list-desktop__link">Место</a></li>
+						<li data-da=".menu-list, 767.98, 7" class="menu-list-desktop__item"><a href="#" class="menu-list-desktop__link">Что то еще</a></li>
+						<li data-da=".menu-list, 767.98, 8" class="menu-list-desktop__item"><a href="#" class="menu-list-desktop__link">И еще</a></li>
+					</ul>
+				</div>
+			</nav>
+			<button type='button' class='icon-menu'>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="intro">
+				<div class="intro__container container">
+					<h1 class="intro__title">Авто обмен</h1>
+					<h2 class="intro__subtitle"> Выгода до 30 000 ₽. Всего за 1 день</h2>
+					<div class="intro__content content-intro">
+						<div class="content-intro__image">
+							<picture><source srcset="img/intro/main-intro-image.webp" type="image/webp"><img src="img/intro/main-intro-image.jpg" alt="intro-image"></picture>
+						</div>
+						<form class="content-intro__form form-content">
+							<div class="form-content__title">Заявка на обмен авто</div>
+							<div class="form-content__input">
+								<input type="text" class="form__input" placeholder="Ваше имя">
+							</div>
+							<div class="form-content__input">
+								<input type="number" class="form__input" placeholder="Телефон">
+							</div>
+							<div class="form-content__text">Нажимая на кнопку, вы соглашаетесь на обратку
+								<span>персональных данных</span></div>
+							<div class="form-content__buttons">
+								<button type="submit" class="form-content__button button-gray">Обменять авто</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<div class="selection">
+				<div class="selection__container container">
+					<a href="#" class="selection__location">Москва</a>
+					<form action="#" class="selection__form form-selections">
+						<div class="form-selections__top">
+							<div class="form-selections__select" data-parent="1">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">Марка</div>
+									<div class="form-selections__title title-selection-1"><span>Все марки</span></div>
+								</div>
+								<div data-submenu="1" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInput">
+													<input type="checkbox" class="checkbox__input" id="checkInput">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputAcura">
+													<input type="checkbox" class="checkbox__input" id="checkInputAcura">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputAlfaRomeo">
+													<input type="checkbox" class="checkbox__input" id="checkInputAlfaRomeo">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputAstonMartin">
+													<input type="checkbox" class="checkbox__input" id="checkInputAstonMartin">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBentley">
+													<input type="checkbox" class="checkbox__input" id="checkInputBentley">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBYD">
+													<input type="checkbox" class="checkbox__input" id="checkInputBYD">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBMW">
+													<input type="checkbox" class="checkbox__input" id="checkInputBMW">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBrilliance">
+													<input type="checkbox" class="checkbox__input" id="checkInputBrilliance">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBuick">
+													<input type="checkbox" class="checkbox__input" id="checkInputBuick">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBugatti1">
+													<input type="checkbox" class="checkbox__input" id="checkInputBugatti1">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputCadillac">
+													<input type="checkbox" class="checkbox__input" id="checkInputCadillac">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputChevrolet">
+													<input type="checkbox" class="checkbox__input" id="checkInputChevrolet">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputChery">
+													<input type="checkbox" class="checkbox__input" id="checkInputChery">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputChrysler">
+													<input type="checkbox" class="checkbox__input" id="checkInputChrysler">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputCitroen">
+													<input type="checkbox" class="checkbox__input" id="checkInputCitroen">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputDaewoo">
+													<input type="checkbox" class="checkbox__input" id="checkInputDaewoo">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputDacia">
+													<input type="checkbox" class="checkbox__input" id="checkInputDacia">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputDaihatsu">
+													<input type="checkbox" class="checkbox__input" id="checkInputDaihatsu">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputDodge">
+													<input type="checkbox" class="checkbox__input" id="checkInputDodge">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-1" for="checkInputBugatti2">
+													<input type="checkbox" class="checkbox__input" id="checkInputBugatti2">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="form-selections__select" data-parent="2">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">Модель</div>
+									<div class="form-selections__title title-selection-2"><span>Все модели</span></div>
+								</div>
+								<div data-submenu="2" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput1">
+													<input type="checkbox" class="checkbox__input" id="checkInput1">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput2">
+													<input type="checkbox" class="checkbox__input" id="checkInput2">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput3">
+													<input type="checkbox" class="checkbox__input" id="checkInput3">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput4">
+													<input type="checkbox" class="checkbox__input" id="checkInput4">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput5">
+													<input type="checkbox" class="checkbox__input" id="checkInput5">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput6">
+													<input type="checkbox" class="checkbox__input" id="checkInput6">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput7">
+													<input type="checkbox" class="checkbox__input" id="checkInput7">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput8">
+													<input type="checkbox" class="checkbox__input" id="checkInput8">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput9">
+													<input type="checkbox" class="checkbox__input" id="checkInput9">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput10">
+													<input type="checkbox" class="checkbox__input" id="checkInput10">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput11">
+													<input type="checkbox" class="checkbox__input" id="checkInput11">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput12">
+													<input type="checkbox" class="checkbox__input" id="checkInput12">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput13">
+													<input type="checkbox" class="checkbox__input" id="checkInput13">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput14">
+													<input type="checkbox" class="checkbox__input" id="checkInput14">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput15">
+													<input type="checkbox" class="checkbox__input" id="checkInput15">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput16">
+													<input type="checkbox" class="checkbox__input" id="checkInput16">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput17">
+													<input type="checkbox" class="checkbox__input" id="checkInput17">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput18">
+													<input type="checkbox" class="checkbox__input" id="checkInput18">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput19">
+													<input type="checkbox" class="checkbox__input" id="checkInput19">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-2" for="checkInput20">
+													<input type="checkbox" class="checkbox__input" id="checkInput20">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="form-selections__select" data-parent="3">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">Цена</div>
+									<div class="form-selections__title title-selection-3"><span>Все цены</span></div>
+								</div>
+								<div data-submenu="3" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput21">
+													<input type="checkbox" class="checkbox__input" id="checkInput21">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput22">
+													<input type="checkbox" class="checkbox__input" id="checkInput22">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput23">
+													<input type="checkbox" class="checkbox__input" id="checkInput23">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput24">
+													<input type="checkbox" class="checkbox__input" id="checkInput24">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput25">
+													<input type="checkbox" class="checkbox__input" id="checkInput25">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput26">
+													<input type="checkbox" class="checkbox__input" id="checkInput26">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput27">
+													<input type="checkbox" class="checkbox__input" id="checkInput27">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput28">
+													<input type="checkbox" class="checkbox__input" id="checkInput28">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput29">
+													<input type="checkbox" class="checkbox__input" id="checkInput29">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput30">
+													<input type="checkbox" class="checkbox__input" id="checkInput30">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput31">
+													<input type="checkbox" class="checkbox__input" id="checkInput31">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput32">
+													<input type="checkbox" class="checkbox__input" id="checkInput32">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput33">
+													<input type="checkbox" class="checkbox__input" id="checkInput33">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput34">
+													<input type="checkbox" class="checkbox__input" id="checkInput34">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput35">
+													<input type="checkbox" class="checkbox__input" id="checkInput35">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput36">
+													<input type="checkbox" class="checkbox__input" id="checkInput36">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput37">
+													<input type="checkbox" class="checkbox__input" id="checkInput37">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput38">
+													<input type="checkbox" class="checkbox__input" id="checkInput38">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput39">
+													<input type="checkbox" class="checkbox__input" id="checkInput39">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-3" for="checkInput40">
+													<input type="checkbox" class="checkbox__input" id="checkInput40">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="form-selections__select" data-parent="4">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">Год выпуска</div>
+									<div class="form-selections__title title-selection-4"><span>Все годы</span></div>
+								</div>
+								<div data-submenu="4" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput41">
+													<input type="checkbox" class="checkbox__input" id="checkInput41">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput42">
+													<input type="checkbox" class="checkbox__input" id="checkInput42">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput43">
+													<input type="checkbox" class="checkbox__input" id="checkInput43">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput44">
+													<input type="checkbox" class="checkbox__input" id="checkInput44">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput45">
+													<input type="checkbox" class="checkbox__input" id="checkInput45">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput46">
+													<input type="checkbox" class="checkbox__input" id="checkInput46">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput47">
+													<input type="checkbox" class="checkbox__input" id="checkInput47">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput48">
+													<input type="checkbox" class="checkbox__input" id="checkInput48">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput49">
+													<input type="checkbox" class="checkbox__input" id="checkInput49">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput50">
+													<input type="checkbox" class="checkbox__input" id="checkInput50">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput51">
+													<input type="checkbox" class="checkbox__input" id="checkInput51">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput52">
+													<input type="checkbox" class="checkbox__input" id="checkInput52">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput53">
+													<input type="checkbox" class="checkbox__input" id="checkInput53">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput54">
+													<input type="checkbox" class="checkbox__input" id="checkInput54">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput55">
+													<input type="checkbox" class="checkbox__input" id="checkInput55">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput56">
+													<input type="checkbox" class="checkbox__input" id="checkInput56">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput57">
+													<input type="checkbox" class="checkbox__input" id="checkInput57">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput58">
+													<input type="checkbox" class="checkbox__input" id="checkInput58">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput59">
+													<input type="checkbox" class="checkbox__input" id="checkInput59">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-4" for="checkInput60">
+													<input type="checkbox" class="checkbox__input" id="checkInput60">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="form-selections__select" data-parent="5">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">Кузов</div>
+									<div class="form-selections__title title-selection-5"><span>Все кузова</span></div>
+								</div>
+								<div data-submenu="5" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput61">
+													<input type="checkbox" class="checkbox__input" id="checkInput61">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput62">
+													<input type="checkbox" class="checkbox__input" id="checkInput62">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput63">
+													<input type="checkbox" class="checkbox__input" id="checkInput63">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput64">
+													<input type="checkbox" class="checkbox__input" id="checkInput64">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput65">
+													<input type="checkbox" class="checkbox__input" id="checkInput65">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput66">
+													<input type="checkbox" class="checkbox__input" id="checkInput66">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput67">
+													<input type="checkbox" class="checkbox__input" id="checkInput67">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput68">
+													<input type="checkbox" class="checkbox__input" id="checkInput68">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput69">
+													<input type="checkbox" class="checkbox__input" id="checkInput69">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput70">
+													<input type="checkbox" class="checkbox__input" id="checkInput70">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput71">
+													<input type="checkbox" class="checkbox__input" id="checkInput71">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput72">
+													<input type="checkbox" class="checkbox__input" id="checkInput72">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput73">
+													<input type="checkbox" class="checkbox__input" id="checkInput73">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput74">
+													<input type="checkbox" class="checkbox__input" id="checkInput74">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput75">
+													<input type="checkbox" class="checkbox__input" id="checkInput75">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput76">
+													<input type="checkbox" class="checkbox__input" id="checkInput76">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput77">
+													<input type="checkbox" class="checkbox__input" id="checkInput77">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput78">
+													<input type="checkbox" class="checkbox__input" id="checkInput78">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput79">
+													<input type="checkbox" class="checkbox__input" id="checkInput79">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-5" for="checkInput80">
+													<input type="checkbox" class="checkbox__input" id="checkInput80">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="form-selections__select" data-parent="6">
+								<div class="form-selections__content">
+									<div class="form-selections__sup-title">КПП</div>
+									<div class="form-selections__title title-selection-6"><span>Все КПП</span></div>
+								</div>
+								<div data-submenu="6" class="form-selections__categories categories-select">
+									<div class="categories-select__body">
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput81">
+													<input type="checkbox" class="checkbox__input" id="checkInput81">
+													<span class="checkbox__text">Audi</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput82">
+													<input type="checkbox" class="checkbox__input" id="checkInput82">
+													<span class="checkbox__text">Acura</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput83">
+													<input type="checkbox" class="checkbox__input" id="checkInput83">
+													<span class="checkbox__text">Alfa Romeo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput84">
+													<input type="checkbox" class="checkbox__input" id="checkInput84">
+													<span class="checkbox__text">Aston Martin</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput85">
+													<input type="checkbox" class="checkbox__input" id="checkInput85">
+													<span class="checkbox__text">Bentley</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput86">
+													<input type="checkbox" class="checkbox__input" id="checkInput86">
+													<span class="checkbox__text">BYD</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput87">
+													<input type="checkbox" class="checkbox__input" id="checkInput87">
+													<span class="checkbox__text">BMW</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput88">
+													<input type="checkbox" class="checkbox__input" id="checkInput88">
+													<span class="checkbox__text">Brilliance</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput89">
+													<input type="checkbox" class="checkbox__input" id="checkInput89">
+													<span class="checkbox__text">Buick</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput90">
+													<input type="checkbox" class="checkbox__input" id="checkInput90">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+										<ul class="categories-select__list">
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput91">
+													<input type="checkbox" class="checkbox__input" id="checkInput91">
+													<span class="checkbox__text">Cadillac</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput92">
+													<input type="checkbox" class="checkbox__input" id="checkInput92">
+													<span class="checkbox__text">Chevrolet</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput93">
+													<input type="checkbox" class="checkbox__input" id="checkInput93">
+													<span class="checkbox__text">Chery</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput94">
+													<input type="checkbox" class="checkbox__input" id="checkInput94">
+													<span class="checkbox__text">Chrysler</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput95">
+													<input type="checkbox" class="checkbox__input" id="checkInput95">
+													<span class="checkbox__text">Citroen</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput96">
+													<input type="checkbox" class="checkbox__input" id="checkInput96">
+													<span class="checkbox__text">Daewoo</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput97">
+													<input type="checkbox" class="checkbox__input" id="checkInput97">
+													<span class="checkbox__text">Dacia</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput98">
+													<input type="checkbox" class="checkbox__input" id="checkInput98">
+													<span class="checkbox__text">Daihatsu</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput99">
+													<input type="checkbox" class="checkbox__input" id="checkInput99">
+													<span class="checkbox__text">Dodge</span>
+												</label>
+											</li>
+											<li>
+												<label class="categories-select__item checkbox-6" for="checkInput100">
+													<input type="checkbox" class="checkbox__input" id="checkInput100">
+													<span class="checkbox__text">Bugatti</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-selections__bottom bottom-checkbox">
+							<div class="bottom-checkbox__item">
+								<div class="bottom-checkbox__checkbox checkbox">
+									<label class="bottom-checkbox__label active" for="garantCheck">Гарантия</label>
+									<input id="garantCheck" name="garantCheck" type="checkbox" class="bottom-checkbox__input" checked>
+								</div>
+							</div>
+							<div class="bottom-checkbox__item">
+								<div class="bottom-checkbox__checkbox checkbox">
+									<label class="bottom-checkbox__label" for="priceCheck">Лучшая цена на рынке</label>
+									<input id="priceCheck" type="checkbox" class="bottom-checkbox__input">
+								</div>
+							</div>
+							<div class="bottom-checkbox__item">
+								<div class="bottom-checkbox__checkbox checkbox">
+									<label class="bottom-checkbox__label" for="sentenceCheck">Предложение недели</label>
+									<input id="sentenceCheck" type="checkbox" class="bottom-checkbox__input">
+								</div>
+							</div>
+							<div class="bottom-checkbox__item">
+								<div class="bottom-checkbox__checkbox checkbox">
+									<label class="bottom-checkbox__label" for="conditionCheck">Идеальное состояние</label>
+									<input id="conditionCheck" type="checkbox" class="bottom-checkbox__input">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<section class="catalog">
+				<div class="catalog__container container">
+					<h2 class="catalog__title title">Авто на продаже</h2>
+					<div class="catalog__body catalog-slider">
+						<div class="catalog-slider__container swiper-container">
+							<div class="catalog-slider__wrapper swiper-wrapper">
+								<div class="catalog-slider__slide swiper-slide slide-catalog-slider">
+									<div class="slide-catalog-slider__body">
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-1.webp" type="image/webp"><img src="img/cars-sale/car-1.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-2.webp" type="image/webp"><img src="img/cars-sale/car-2.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-3.webp" type="image/webp"><img src="img/cars-sale/car-3.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-4.webp" type="image/webp"><img src="img/cars-sale/car-4.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-5.webp" type="image/webp"><img src="img/cars-sale/car-5.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-6.webp" type="image/webp"><img src="img/cars-sale/car-6.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-7.webp" type="image/webp"><img src="img/cars-sale/car-7.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-8.webp" type="image/webp"><img src="img/cars-sale/car-8.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-9.webp" type="image/webp"><img src="img/cars-sale/car-9.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-10.webp" type="image/webp"><img src="img/cars-sale/car-10.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-11.webp" type="image/webp"><img src="img/cars-sale/car-11.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-12.webp" type="image/webp"><img src="img/cars-sale/car-12.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-slider__slide swiper-slide slide-catalog-slider">
+									<div class="slide-catalog-slider__body">
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-1.webp" type="image/webp"><img src="img/cars-sale/car-1.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-2.webp" type="image/webp"><img src="img/cars-sale/car-2.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-3.webp" type="image/webp"><img src="img/cars-sale/car-3.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-4.webp" type="image/webp"><img src="img/cars-sale/car-4.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-5.webp" type="image/webp"><img src="img/cars-sale/car-5.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-6.webp" type="image/webp"><img src="img/cars-sale/car-6.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-7.webp" type="image/webp"><img src="img/cars-sale/car-7.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-8.webp" type="image/webp"><img src="img/cars-sale/car-8.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-9.webp" type="image/webp"><img src="img/cars-sale/car-9.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-10.webp" type="image/webp"><img src="img/cars-sale/car-10.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-11.webp" type="image/webp"><img src="img/cars-sale/car-11.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-12.webp" type="image/webp"><img src="img/cars-sale/car-12.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-slider__slide swiper-slide slide-catalog-slider">
+									<div class="slide-catalog-slider__body">
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-1.webp" type="image/webp"><img src="img/cars-sale/car-1.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-2.webp" type="image/webp"><img src="img/cars-sale/car-2.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-3.webp" type="image/webp"><img src="img/cars-sale/car-3.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-4.webp" type="image/webp"><img src="img/cars-sale/car-4.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-5.webp" type="image/webp"><img src="img/cars-sale/car-5.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-6.webp" type="image/webp"><img src="img/cars-sale/car-6.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-7.webp" type="image/webp"><img src="img/cars-sale/car-7.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-8.webp" type="image/webp"><img src="img/cars-sale/car-8.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-9.webp" type="image/webp"><img src="img/cars-sale/car-9.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-10.webp" type="image/webp"><img src="img/cars-sale/car-10.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-11.webp" type="image/webp"><img src="img/cars-sale/car-11.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-12.webp" type="image/webp"><img src="img/cars-sale/car-12.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-slider__slide swiper-slide slide-catalog-slider">
+									<div class="slide-catalog-slider__body">
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-1.webp" type="image/webp"><img src="img/cars-sale/car-1.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-2.webp" type="image/webp"><img src="img/cars-sale/car-2.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-3.webp" type="image/webp"><img src="img/cars-sale/car-3.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-4.webp" type="image/webp"><img src="img/cars-sale/car-4.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-5.webp" type="image/webp"><img src="img/cars-sale/car-5.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-6.webp" type="image/webp"><img src="img/cars-sale/car-6.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-7.webp" type="image/webp"><img src="img/cars-sale/car-7.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-8.webp" type="image/webp"><img src="img/cars-sale/car-8.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-9.webp" type="image/webp"><img src="img/cars-sale/car-9.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-10.webp" type="image/webp"><img src="img/cars-sale/car-10.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-11.webp" type="image/webp"><img src="img/cars-sale/car-11.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="slide-catalog-slider__item item-slide">
+											<a href="#" class="item-slide__image">
+												<picture><source srcset="img/cars-sale/car-12.webp" type="image/webp"><img src="img/cars-sale/car-12.jpg" alt="Geely Mk"></picture>
+											</a>
+											<a href="#" class="item-slide__title">Geely MK</a>
+											<div class="item-slide__desc">2013, Механика, Бензин, Передний, 1.5л., 94л.с., 240000км. </div>
+											<div class="item-slide__footer">
+												<div class="item-slide__price">$ 4 292 </div>
+												<svg class="item-slide__favorite">
+													<use xlink:href="img/icons/favorite-icon.svg#favorite"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="catalog-slider__navigation">
+								<div class="catalog-slider__row">
+									<div class="catalog-slider__button-prev swiper-button-prev"></div>
+									<div class="catalog-slider__pagination"></div>
+									<div class="catalog-slider__button-next swiper-button-next"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="stages">
+				<div class="stages__container container">
+					<h2 class="stages__title title">Как происходит обмен авто?</h2>
+					<div class="stages__body">
+						<div class="stages__item item-stages">
+							<div class="item-stages__number">1</div>
+							<div class="item-stages__title">Заявка на автообмен</div>
+							<div class="item-stages__text">Вы отправляете заявку, и мы приезжаем в удобное для вас место и время для осмотра автомобиля.</div>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__number">2</div>
+							<div class="item-stages__title">Заявка на автообмен</div>
+							<div class="item-stages__text">Вы отправляете заявку, и мы приезжаем в удобное для вас место и время для осмотра автомобиля.</div>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__number">3</div>
+							<div class="item-stages__title">Предложение по автообмену</div>
+							<div class="item-stages__text">Мы делаем вам предложение по обмену вашего автомобиля</div>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__number">4</div>
+							<div class="item-stages__title">Обмен автомобиля</div>
+							<div class="item-stages__text">Мы оформляем все документы, и вы уезжаете на новом автомобиле. Это займёт всего 1 день.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="documents">
+				<div class="documents__container container">
+					<h2 class="documents__title title">Необходимые документы для обмена автомобиля</h2>
+					<div class="documents__body">
+						<div class="documents__column">
+							<div class="documents__item">Паспорт транспортного средства (ПТС)</div>
+							<div class="documents__item">Свидетельство о регистрации автомобиля</div>
+							<div class="documents__item">Личный паспорт</div>
+						</div>
+						<div class="documents__column">
+							<div class="documents__item">Генеральная доверенность<span>(если вы не являетесь собственником)</span></div>
+							<div class="documents__item">Все комплекты ключей</div>
+							<div class="documents__item">Документы о сервисном обслуживании<span>(желательно)</span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="benefits__container container">
+					<h2 class="benefits__title title">Основные примущества</h2>
+					<div class="benefits__body">
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">Большой выбор</div>
+							<div class="item-benefits__text">Большой выбор новых и подержанных автомобилей для обмена.</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">Безопасно</div>
+							<div class="item-benefits__text">Сотрудничая с нами, вы можете быть уверены в своей личной и финансовой безопасности.</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">Диагностика бесплатно</div>
+							<div class="item-benefits__text">Оценка и диагностика автомобиля производится бесплатно.</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">Любое авто</div>
+							<div class="item-benefits__text">Принимаем автомобили любых марок. Вне зависимости от его возраста и пробега.</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">В одном месте</div>
+							<div class="item-benefits__text">Обмен будет произведён в одном месте под контролем специалиста по trade-in.</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__title">Авто на первый взнос</div>
+							<div class="item-benefits__text">Ваш автомобиль может быть принят нами в качестве первого взноса по кредиту</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container container">
+					<h2 class="questions__title title">Частые вопросы</h2>
+					<div class="questions__body">
+						<div class="questions__column">
+							<div class="questions__item">
+								<div class="questions__slollers">Чем обмен отличается от трейд-ин?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__slollers">Как происходит обмен?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__slollers">Как оформляется обмен?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+						</div>
+						<div class="questions__column">
+							<div class="questions__item">
+								<div class="questions__slollers">Чем обмен отличается от трейд-ин?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__slollers">Как происходит обмен?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__slollers">Как оформляется обмен?</div>
+								<div class="questions__spollers-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolore saepe fuga nam? Nam fugiat deleniti corporis eveniet et non nobis facere eos error adipisci? Repudiandae odio cupiditate ipsam natus!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="request">
+				<div class="request__container container">
+					<div class="request__content">
+						<form class="form-content">
+							<div class="form-content__title">Заявка на обмен авто</div>
+							<div class="form-content__input">
+								<input type="text" class="form__input" placeholder="Ваше имя">
+							</div>
+							<div class="form-content__input">
+								<input type="number" class="form__input" placeholder="Телефон">
+							</div>
+							<div class="form-content__text">Нажимая на кнопку, вы соглашаетесь на обратку
+								<span>персональных данных</span></div>
+							<div class="form-content__buttons">
+								<button type="submit" class="form-content__button btn button-blue">Обменять авто</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<section class="about">
+				<div class="about__container container">
+					<h2 class="about__title title">Почему обмен авто в CarExchange</h2>
+					<div class="about__body">
+						<div class="about__item item-about">
+							<div class="item-about__icon">
+								<svg class="item-about-icon">
+									<use xlink:href="img/icons/sale-icon.svg#sale"></use>
+								</svg>
+							</div>
+							<div class="item-about__title">Скидка до 500$</div>
+							<div class="item-about__text">Даём гарантированную скидку до 500$ на выбранный для обмена авто.</div>
+						</div>
+						<div class="about__item item-about">
+							<div class="item-about__icon">
+								<svg class="item-about-icon">
+									<use xlink:href="img/icons/dolor-icon.svg#dolor"></use>
+								</svg>
+							</div>
+							<div class="item-about__title">Рыночная цена</div>
+							<div class="item-about__text">Используем собственный сервис оценки, основанный на данных актуальных предложений и реальных сделок.</div>
+						</div>
+						<div class="about__item item-about">
+							<div class="item-about__icon">
+								<svg class="item-about-icon">
+									<use xlink:href="img/icons/calendar-icon.svg#calendar"></use>
+								</svg>
+							</div>
+							<div class="item-about__title">Обмен за 1 день</div>
+							<div class="item-about__text">Оформляем документы и выдаём автомобиль в день передачи старого.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__top top-footer">
+			<div class="top-footer__body">
+				<div class="top-footer__column">
+					<div class="top-footer__title">Купить автомобиль</div>
+					<ul class="top-footer__list">
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Автомобили на продаже</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Подбор автомобиля</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Специальные программы</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Автомобили с преимуществами</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Новые поступления</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Автомобиль с доставкой на дом</a></li>
+					</ul>
+				</div>
+				<div class="top-footer__column">
+					<div class="top-footer__title">Продать автомобиль</div>
+					<ul class="top-footer__list">
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Оценка автомобиля</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Обмен автомобиля</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Комиссионная продажа</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Выкуп автомобилей</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Трейд ин /Com trade</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Оценка мотоцикла</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Корпоративным клиентам</a></li>
+					</ul>
+				</div>
+				<div class="top-footer__column">
+					<div class="top-footer__title">Услуги</div>
+					<ul class="top-footer__list">
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Прописка на новые поступления</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Страхование автомобиля</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Аукционы</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Аренда автомобиля</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Техническая помощь</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Major Лизинг</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Major Plus</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Автомобиль с доставкой на дом</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Major Plus Expert</a></li>
+					</ul>
+				</div>
+				<div class="top-footer__column">
+					<div class="top-footer__title">О компании</div>
+					<ul class="top-footer__list">
+						<li class="top-footer__item"><a href="#" class="top-footer__link">О Major Expert</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Контакты</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Вопрос-Ответ</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Новости</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Мотоциклы в продаже</a></li>
+						<li class="top-footer__item"><a href="#" class="top-footer__link">Новые автомобили</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom bottom-footer">
+			<div class="bottom-footer__info">
+				<div class="bottom-footer__row">
+					<div class="bottom-footer__item"><a href="#" class="bottom-footer__link">г. Москва, ул. ..., стр. 1</a></div>
+					<div class="bottom-footer__item"><a href="tel:+71111222333" class="bottom-footer__link">+7 1111-222-333</a></div>
+					<div class="bottom-footer__item">Время работы:<span>Ежедневно с 10:00-22:00</span></div>
+				</div>
+				<div class="bottom-footer__soc soc-footer">
+					<div class="soc-footer__title">Социальные сети:</div>
+					<div class="soc-footer__body">
+						<a href="#">
+							<svg class="soc-footer__icon">
+								<use xlink:href="img/icons/facebook.svg#facebook"></use>
+							</svg>
+						</a>
+						<a href="#">
+							<svg class="soc-footer__icon">
+								<use xlink:href="img/icons/whatsUp.svg#whatsup"></use>
+							</svg>
+						</a>
+						<a href="#">
+							<svg class="soc-footer__icon">
+								<use xlink:href="img/icons/telegram.svg#telegram"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-footer__feedback">
+				<form action="#" class="bottom-footer__form">
+					<div data-da=".footer__container, 767.98, 0" class="bottom-footer__search">
+						<input type="text" placeholder="Поиск по сайту">
+					</div>
+					<div class="bottom-footer__title"><span>Написать письмо /</span><span>Заказать звонок</span></div>
+					<div class="bottom-footer__message">
+						<textarea placeholder="Письмо..."></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
